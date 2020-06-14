@@ -26,8 +26,4 @@ public class ClassGeneric<T> extends SwapsElements {
 
     }
 
-
-//    protected void get(int i) {
-//
-//    }
 }
