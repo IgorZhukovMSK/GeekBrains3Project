@@ -1,6 +1,6 @@
 package Lesson1.Task1;
 
-public class ClassGeneric<T> {
+public class ClassGeneric<T> extends SwapsElements {
 
     private T[] obj;
 
@@ -25,4 +25,9 @@ public class ClassGeneric<T> {
         System.out.println();
 
     }
+
+
+//    protected void get(int i) {
+//
+//    }
 }
