@@ -8,5 +8,4 @@ public class arrayСonversion <T> {
     ArrayList<T> arrayСonversion (T[] array) {
         return new ArrayList<>(Arrays.asList(array));
     }
-
 }
