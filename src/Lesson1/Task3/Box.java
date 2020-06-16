@@ -2,6 +2,10 @@ package Lesson1.Task3;
 
 import java.util.ArrayList;
 
+package Lesson1.Task3;
+
+import java.util.ArrayList;
+
 public class Box<T extends Fruit> {
     private ArrayList<T> fruits = new ArrayList<>();
     private static final Float emptyBoxWeight = 1.0f;
@@ -45,5 +49,9 @@ public class Box<T extends Fruit> {
         if(fruit != null){
             this.fruits.add(fruit);
         }
+
     }
+}
+
+
 }
