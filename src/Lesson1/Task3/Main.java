@@ -58,6 +58,7 @@ public class Main {
         System.out.println(String.format("Is weights of boxWithApples2 and boxWithOranges equals? %s",
                 boxWithApples2.compare(boxWithOranges)));
     }
+
 }
 
 
